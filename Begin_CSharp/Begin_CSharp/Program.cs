@@ -10,19 +10,11 @@ namespace Begin_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wie heißt du?");
-            string userName = Console.ReadLine();
-            //string userName = "Mona";
-            Console.WriteLine("Hello " + userName);
+            Console.WriteLine("Wie groß bist du (in Meter)?");
+            double height = Convert.ToDouble(Console.ReadLine());
+            int multiplicator = 3;
 
-            Console.WriteLine("Wie alt bist aktuell?");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Wie alt bist in X Jahren?");
-            int nextYear = Convert.ToInt32(Console.ReadLine());
-
-            int sumYears = age + nextYear;
-            Console.WriteLine("Du bist also in " + nextYear + " Jahren, " + sumYears);
+            Console.WriteLine("Du bist " + height * multiplicator + "m groß.");
             Console.ReadLine();
         }
     }
