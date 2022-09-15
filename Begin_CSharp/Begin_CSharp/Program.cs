@@ -16,6 +16,12 @@ namespace Begin_CSharp
             {
                 Console.WriteLine(wort);
             }
+
+            //for(int i = 0; i < 3; i++)
+            for(int i = 0; i < entries.Length; i++)
+            {
+                Console.WriteLine(entries[i]);
+            }
             
             Console.ReadLine();
         }
