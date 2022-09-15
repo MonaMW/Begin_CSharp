@@ -12,10 +12,12 @@ namespace Begin_CSharp
         {
             Console.WriteLine("Wie alt bist du?");
             int age = Convert.ToInt32(Console.ReadLine());
-            if (age < 18)
-                Console.WriteLine("Du kommst hier nicht rein!");
-            else
+            if (age >= 28)
                 Console.WriteLine("Viel Spaß!");
+            else if (age >= 18 && age < 28)
+                Console.WriteLine("Bitte Auweis!");
+            else
+                Console.WriteLine("Du kommst hier nicht rein!");
             Console.ReadLine();
         }
     }
