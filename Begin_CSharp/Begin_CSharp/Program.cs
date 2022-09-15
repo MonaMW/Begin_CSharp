@@ -11,11 +11,12 @@ namespace Begin_CSharp
         static void Main(string[] args)
         {
             int i = 0;
-            while(i < 10)
+            do
             {
                 Console.WriteLine(i);
                 i++;
             }
+            while (i < 10);
             
             Console.ReadLine();
         }
