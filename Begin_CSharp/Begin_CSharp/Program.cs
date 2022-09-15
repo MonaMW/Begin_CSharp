@@ -17,11 +17,9 @@ namespace Begin_CSharp
 
             Console.WriteLine("Wie alt bist aktuell?");
             int age = Convert.ToInt32(Console.ReadLine());
-            Console.ReadLine();
 
             Console.WriteLine("Wie alt bist in X Jahren?");
             int nextYear = Convert.ToInt32(Console.ReadLine());
-            Console.ReadLine();
 
             int sumYears = age + nextYear;
             Console.WriteLine("Du bist also in " + nextYear + " Jahren, " + sumYears);
