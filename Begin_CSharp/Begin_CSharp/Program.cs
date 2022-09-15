@@ -11,12 +11,13 @@ namespace Begin_CSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Gib mir ein Wort!");
-
             string entry = Console.ReadLine();
-            string replaced_entry = entry.Replace("U", "G").Replace("u", "g");
+            string trimmed_entry = entry.Trim(' ', 'a');
+            //string trimmed_entry = entry.Replace("a", "");
+
+            Console.WriteLine("Old String " + entry + ":");
+            Console.WriteLine("New String " + trimmed_entry + ":");
             
-            Console.WriteLine("Der alte Text war " + entry);
-            Console.WriteLine("Der neue Text is " + replaced_entry);
             Console.ReadLine();
         }
     }
