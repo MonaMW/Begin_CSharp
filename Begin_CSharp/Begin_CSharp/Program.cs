@@ -10,7 +10,9 @@ namespace Begin_CSharp
     {
         static void Main(string[] args)
         {
-            string userName = "Mona";
+            Console.WriteLine("Wie heißt du?");
+            string userName = Console.ReadLine();
+            //string userName = "Mona";
             Console.WriteLine("Hello " + userName);
             Console.ReadLine();
         }
