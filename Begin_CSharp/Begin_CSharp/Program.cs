@@ -18,6 +18,7 @@ namespace Begin_CSharp
                 Console.WriteLine("Bitte Auweis!");
             else
                 Console.WriteLine("Du kommst hier nicht rein!");
+            //prevents ending console application
             Console.ReadLine();
         }
     }
