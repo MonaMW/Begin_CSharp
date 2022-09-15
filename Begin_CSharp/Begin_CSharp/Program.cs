@@ -10,12 +10,10 @@ namespace Begin_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Gib mir ein Wort!");
-            string entry = Console.ReadLine();
-            string trimmed_entry = entry.Substring(3, 4);
-
-            Console.WriteLine("Old entry " + entry + ":");
-            Console.WriteLine("New entry " + trimmed_entry + ":");
+            for(int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
             
             Console.ReadLine();
         }
